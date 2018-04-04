@@ -525,4 +525,29 @@ h3 {
       .faq__content li:nth-child(5) {
         background-image: url("../img/list/5.png"); }
 
+.instruction .container {
+  background-image: url("../img/instruction_bg.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-bottom: 80px; }
+
+.instruction__header {
+  padding-top: 85px; }
+  .instruction__header h2 {
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 3px; }
+  .instruction__header .subtitle {
+    color: #8ac0e4;
+    font-family: GothamProBlack;
+    font-size: 1.33rem; }
+
+.instruction__action {
+  padding-top: 40px; }
+  .instruction__action input {
+    padding: 5px 15px 4px; }
+  .instruction__action a.btn__agency {
+    font-size: 1.2rem;
+    padding: 4px 0; }
+
 /*# sourceMappingURL=main.css.map */
