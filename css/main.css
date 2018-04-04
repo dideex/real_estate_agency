@@ -493,4 +493,36 @@ h3 {
     bottom: 4%;
     right: 1%; }
 
+.faq {
+  margin-top: 80px; }
+  .faq .container {
+    padding-top: 59px;
+    background-color: #f5f5f5; }
+  .faq__header h2 {
+    text-align: center;
+    font-size: 2.5rem; }
+  .faq__content {
+    padding-top: 34px;
+    padding-bottom: 16px; }
+    .faq__content ul {
+      padding-left: 0px; }
+    .faq__content li {
+      background-repeat: no-repeat;
+      background-position: top 3px left;
+      font-family: GothamProLights;
+      list-style: none;
+      padding-left: 80px;
+      padding-bottom: 23px;
+      line-height: 1.4; }
+      .faq__content li:nth-child(1) {
+        background-image: url("../img/list/1.png"); }
+      .faq__content li:nth-child(2) {
+        background-image: url("../img/list/2.png"); }
+      .faq__content li:nth-child(3) {
+        background-image: url("../img/list/3.png"); }
+      .faq__content li:nth-child(4) {
+        background-image: url("../img/list/4.png"); }
+      .faq__content li:nth-child(5) {
+        background-image: url("../img/list/5.png"); }
+
 /*# sourceMappingURL=main.css.map */
