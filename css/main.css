@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'GothamProBlack';
+  src: url("../fonts/GothamProBlack.eot");
+  src: url("../fonts/GothamProBlack.eot") format("embedded-opentype"), url("../fonts/GothamProBlack.woff2") format("woff2"), url("../fonts/GothamProBlack.woff") format("woff"), url("../fonts/GothamProBlack.ttf") format("truetype"), url("../fonts/GothamProBlack.svg#GothamProBlack") format("svg"); }
+
+@font-face {
+  font-family: 'GothamProLights';
+  src: url("../fonts/GothamProLights.eot");
+  src: url("../fonts/GothamProLights.eot") format("embedded-opentype"), url("../fonts/GothamProLights.woff2") format("woff2"), url("../fonts/GothamProLights.woff") format("woff"), url("../fonts/GothamProLights.ttf") format("truetype"), url("../fonts/GothamProLights.svg#GothamProLights") format("svg"); }
+
+@font-face {
+  font-family: 'GothamProMedium';
+  src: url("../fonts/GothamProMedium.eot");
+  src: url("../fonts/GothamProMedium.eot") format("embedded-opentype"), url("../fonts/GothamProMedium.woff2") format("woff2"), url("../fonts/GothamProMedium.woff") format("woff"), url("../fonts/GothamProMedium.ttf") format("truetype"), url("../fonts/GothamProMedium.svg#GothamProMedium") format("svg"); }
+
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.eot") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#fontawesome-webfont") format("svg"); }
+
+html {
+  font-size: 18px; }
+
+body {
+  min-width: 320px;
+  position: relative;
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-size: 1rem;
+  opacity: 1;
+  font-family: GothamProLights;
+  font-weight: 500;
+  overflow-scrolling: touch;
+  margin: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+input:hover, input:focus, a:focus {
+  outline: none; }
+
+@media (min-width: 1170px) {
+  .container {
+    max-width: 1170px; } }
+
+.btn__agency {
+  font-size: 1.55rem;
+  font-family: GothamProMedium;
+  background-color: #0065ab;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  white-space: nowrap; }
+  .btn__agency:hover {
+    color: #ffffff; }
+
+.btn__agency.small {
+  font-size: 1rem; }
+
+.btn__agency.white {
+  font-size: .88rem;
+  color: #5d5a63;
+  background-color: transparent;
+  border: 1px solid #808285;
+  font-family: GothamProMedium;
+  padding: 9px 0; }
+
+.btn__agency.white.phone {
+  font-family: GothamProLights;
+  font-size: 1.1rem;
+  padding: 6px 0; }
+
+h1 {
+  font-family: GothamProBlack;
+  font-size: 2.83rem;
+  color: #0065ab;
+  line-height: 1.15;
+  text-transform: uppercase; }
+  h1 strong {
+    font-size: 3.22rem; }
+
+h2.subtitle {
+  font-size: 2.23rem;
+  text-transform: none; }
+
+h2 {
+  color: #0065ab;
+  font-family: GothamProBlack;
+  font-size: 2.45rem;
+  text-transform: uppercase; }
+
+h3 {
+  font-family: GothamProMedium;
+  font-size: 1.67rem;
+  text-transform: none;
+  color: #0065ab; }
+
+.header {
+  background-image: url("../img/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-top: 84px; }
+  .header__buttons {
+    padding-top: 13px; }
+    .header__buttons > a {
+      margin-bottom: 18px; }
+  .header__content {
+    margin-top: 126px; }
+  .header__action {
+    margin-top: 113px;
+    padding-bottom: 46px;
+    text-align: center; }
+    .header__action h3 {
+      margin-bottom: 36px; }
+
+@media (max-width: 1400px) {
+  .header {
+    background-size: 48%; } }
+
+.price {
+  margin-top: 102px;
+  text-align: center; }
+  .price h2 {
+    margin-bottom: 0; }
+  .price h2.subtitle {
+    color: #8ac0e4;
+    font-size: 1.67rem; }
+  .price__form--items {
+    margin-top: 53px; }
+  .price__form--item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .price__form--item a.btn__agency {
+      -webkit-box-flex: 100%;
+      -webkit-flex: 100% 0 0;
+          -ms-flex: 100% 0 0px;
+              flex: 100% 0 0;
+      font-size: 1rem; }
+    .price__form--item--field {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      border: 1px solid #5d5a63;
+      font-family: GothamProMedium;
+      text-align: left;
+      padding: 6px 0 7px 20px; }
+      .price__form--item--field#budget::after {
+        content: 'рублей';
+        padding-left: 5px; }
+    .price__form--item--label {
+      color: #5d5a63;
+      padding-right: 69px; }
+    .price__form--item input {
+      margin: 28px 0;
+      width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

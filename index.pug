@@ -1,0 +1,43 @@
+
+extends header.pug
+block content
+  header.header
+    .container
+      .row.justify-content-center.no-gutters
+        .col-lg-7.header__logo
+          img(src="img/logo.png", alt="")
+        .col-lg-3.header__buttons
+          a(href="tel: +73472994868").btn__agency.white.phone +7 (347) 299-48-68
+          a(href="#").btn__agency.white заказать обратный звонок
+      .row.no-gutters.justify-content-center.header__content
+        .col-lg-10
+          h1 <strong>Продажа квартир</strong> <br> в новостройках уфы
+          h2.subtitle по ценам застройщиков
+      .row.no-gutters.justify-content-center.header__action
+        .col-lg-4
+          h3 Подбери себе квартиру за 5 минут, пройдя тест
+          a(href="#").btn__agency Пройти тест
+        .col-lg-5
+  section.price
+    .container
+      .row.justify-content-center.price__header
+        .col-lg-12
+          h2 Калькулятор стоимости квартиры 
+          h2.subtitle расчитайте и получите список квартир по параметрам
+      .row.justify-content-center.price__calc
+        .col-lg-6
+          form(action="")
+            .price__form--items
+              .price__form--item.price__budget
+                .price__form--item--label Бюджет
+                .price__form--item--field#budget 1 000 000
+              .price__form--item
+                input(type="range")
+              .price__form--item
+                .price__form--item--label Количество комнат
+                .price__form--item--field#count 3
+              .price__form--item
+                input(type="range")
+              .price__form--item
+                a(href="#").btn__agency Расчитать
+                
