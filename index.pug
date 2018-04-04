@@ -56,13 +56,13 @@ block content
         .col-lg-10
           .owl-arrow#prev-staff
           .owl-arrow#next-staff
-          .owl-carousell
+          .owl-carousel#slider-staff
             .item
               img.grayscale(src="img/staff_slider/1.jpg", alt="")
-            //- .item
-            //-   img.grayscale(src="img/staff_slider/2.jpg", alt="")
-            //- .item
-            //-   img.grayscale(src="img/staff_slider/3.jpg", alt="")
+            .item
+              img.grayscale(src="img/staff_slider/2.jpg", alt="")
+            .item
+              img.grayscale(src="img/staff_slider/3.jpg", alt="")
   .personal
     .container
       .row.justify-content-center.personal--header
@@ -205,5 +205,22 @@ block content
             input#instruction-phone(type="text", placeholder="+7(____)_____-____-____")
             input#instruction-email(type="text", placeholder="__________________@____")
           a(href="#").btn__agency Скачать
-
+  .comments
+    .container
+      .row.justify-content-center.comments__header
+        .col-lg-12
+          h2 Реальные отзывы клиентов
+          img.greyscale(src="img/comments_video.jpg", alt="")
+      .row.justify-content-center.comments__slider
+        .col-lg-10
+          .owl-arrow#prev-comments
+          .owl-arrow#next-comments
+          .owl-carousel#slider-comments
+            .item
+              img.grayscale(src="img/comments/1.jpg", alt="")
+            .item
+              img.grayscale(src="img/comments/2.jpg", alt="")
+            .item
+              img.grayscale(src="img/comments/3.jpg", alt="")
+        
 
