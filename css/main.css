@@ -398,4 +398,99 @@ h3 {
   .hypothec {
     background-size: 38%; } }
 
+.benefits .container {
+  padding-top: 92px;
+  padding-bottom: 92px;
+  background-image: url("../img/benefits_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: auto 100%; }
+
+.benefits .col-lg-4 {
+  margin-right: 35px; }
+
+.benefits__header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4px; }
+
+.benefits__header .subtitle {
+  font-size: 1.24rem;
+  color: #5d5a63;
+  font-family: GothamProMedium; }
+
+.benefits__item {
+  background-repeat: no-repeat;
+  background-position: left bottom 8px; }
+  .benefits__item p {
+    margin-top: 27px;
+    margin-bottom: 5px;
+    padding-top: 23px;
+    padding-bottom: 17px;
+    font-size: 0.9rem;
+    color: #000000;
+    font-family: GothamProLights;
+    white-space: nowrap;
+    padding-left: 70px; }
+  .benefits__item:nth-child(1) {
+    background-image: url("../img/benefits/1.png"); }
+  .benefits__item:nth-child(2) {
+    background-image: url("../img/benefits/2.png"); }
+  .benefits__item:nth-child(3) {
+    background-image: url("../img/benefits/3.png"); }
+  .benefits__item:nth-child(4) {
+    background-image: url("../img/benefits/4.png"); }
+  .benefits__item:nth-child(5) {
+    background-image: url("../img/benefits/5.png"); }
+  .benefits__item:nth-child(6) {
+    background-image: url("../img/benefits/6.png"); }
+
+.benefits__action .col-lg-10 {
+  margin-top: 17px;
+  text-align: right; }
+
+.benefits__action a.btn__agency {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 6px 40px; }
+
+.road__header {
+  margin-top: 75px;
+  margin-bottom: 60px; }
+  .road__header h2 {
+    text-align: center;
+    font-size: 2.45rem; }
+
+.road__content {
+  min-height: 322px;
+  background-image: url("../img/road_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
+.road__item {
+  position: absolute; }
+  .road__item p {
+    display: inline-block;
+    font-family: GothamProLights;
+    margin-bottom: 0;
+    line-height: 1.1;
+    color: #000000;
+    padding: 5px 0 5px 44px;
+    background-image: url("../img/marker.png");
+    background-repeat: no-repeat;
+    background-position: left top; }
+  .road__item:nth-child(1) {
+    top: -6%;
+    left: 48%; }
+  .road__item:nth-child(2) {
+    top: 7%;
+    left: 3%; }
+  .road__item:nth-child(3) {
+    top: 32%;
+    right: 0; }
+  .road__item:nth-child(4) {
+    top: 50%;
+    left: 4%; }
+  .road__item:nth-child(5) {
+    bottom: 4%;
+    right: 1%; }
+
 /*# sourceMappingURL=main.css.map */
