@@ -126,7 +126,8 @@ h3 {
 
 .price {
   margin-top: 102px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 106px; }
   .price h2 {
     margin-bottom: 0; }
   .price h2.subtitle {
@@ -169,7 +170,26 @@ h3 {
       color: #5d5a63;
       padding-right: 69px; }
     .price__form--item input {
-      margin: 28px 0;
-      width: 100%; }
+      margin: 22px 0;
+      width: 100%;
+      -webkit-appearance: none;
+         -moz-appearance: none;
+              appearance: none;
+      background-image: url("../img/range_bg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: -webkit-calc(100% - 33px) auto;
+      background-size: calc(100% - 33px) auto; }
+      .price__form--item input::-webkit-slider-thumb {
+        -webkit-appearance: none;
+                appearance: none;
+        width: 33px;
+        height: 33px;
+        background-color: #ffffff;
+        border: 1px solid #5d5a63;
+        -webkit-border-radius: 50%;
+                border-radius: 50%; }
+      .price__form--item input::thumb {
+        background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

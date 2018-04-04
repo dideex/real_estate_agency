@@ -32,12 +32,12 @@ block content
                 .price__form--item--label Бюджет
                 .price__form--item--field#budget 1 000 000
               .price__form--item
-                input(type="range")
+                input(type="range", min="1000000", max="10000000", step="50000", list, value="1000000")
               .price__form--item
                 .price__form--item--label Количество комнат
                 .price__form--item--field#count 3
               .price__form--item
-                input(type="range")
+                input(type="range", min="1", max="8", step="1", list, value="3")
               .price__form--item
                 a(href="#").btn__agency Расчитать
                 

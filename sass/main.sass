@@ -120,6 +120,7 @@ h3
 .price
 	margin-top: 102px
 	text-align: center
+	padding-bottom: 106px
 	h2
 		margin-bottom: 0
 	h2.subtitle
@@ -149,8 +150,22 @@ h3
 				color: $font-gray
 				padding-right: 69px
 			input
-				margin: 28px 0
+				margin: 22px 0
 				width: 100%
+				appearance: none
+				background-image: url("../img/range_bg.png")
+				background-repeat: no-repeat
+				background-position: center
+				background-size: calc(100% - 33px) auto
+				&::-webkit-slider-thumb
+					appearance: none
+					width: 33px
+					height: 33px
+					background-color: #ffffff
+					border: 1px solid $font-gray
+					border-radius: 50%
+				&::thumb
+					background-color: #fff
 //_____________ A B O U T
 
 //_____________ F O O T E R
