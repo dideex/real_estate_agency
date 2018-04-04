@@ -50,3 +50,65 @@ block content
           p.about__desc Привет. Меня зовут Балтин Айрат. Я директор Агентства недвижимости Аструм. В сфере недвижимости я работаю с 2012 года. За это время <strong>более 200 моих клиентов</strong> стали счастливыми обладателями новых квартир. В сферу риэлторских услуг я пришёл после госслужбы. Выбрал эту профессию целенаправленно. Считаю, что Риэлтор - это не просто профессия, а это призвание. Призвание дарить людям счастье, помогать обретать крышу над головой, в виде новой квартиры. 
             br
             strong Добро пожаловать к нам, в Агентство недвижимости Аструм!
+  .staff_slider
+    .container
+      .row.justify-content-center.staff_slider--content
+        .col-lg-10
+          .owl-arrow#prev-staff
+          .owl-arrow#next-staff
+          .owl-carousell
+            .item
+              img.grayscale(src="img/staff_slider/1.jpg", alt="")
+            //- .item
+            //-   img.grayscale(src="img/staff_slider/2.jpg", alt="")
+            //- .item
+            //-   img.grayscale(src="img/staff_slider/3.jpg", alt="")
+  .personal
+    .container
+      .row.justify-content-center.personal--header
+        .col-lg-12
+          h2 Сотрудники, которые будут работать с вами
+      .row.justify-content-center
+        .col-lg-10
+          .row.justify-content-between.personal--items
+            .col-lg-3.personal--item
+              img.grayscale(src="img/personal/1.jpg", alt="")
+              h4 Егоров Кирилл
+              a.btn__agency.white(href="") Заказать консультацию
+            .col-lg-3.personal--item
+              img.grayscale(src="img/personal/2.jpg", alt="")
+              h4 Галиуллина Екатерина
+              a.btn__agency.white(href="") Заказать консультацию
+            .col-lg-3.personal--item
+              img.grayscale(src="img/personal/3.jpg", alt="")
+              h4 Хамитов Марат
+              a.btn__agency.white(href="") Заказать консультацию
+            .col-lg-3.personal--item
+              img.grayscale(src="img/personal/4.jpg", alt="")
+              h4 Нуриева Айгуль
+              a.btn__agency.white(href="") Заказать консультацию
+  section.advice
+    .container
+      .row.align-items-center
+        .col-lg-7.row.align-items-center.justify-content-center
+          .col-lg-7
+            p.advice__desc Получи бесплатную консультацию наших специалистов
+        .col-lg-5.row.align-items-center
+          .col-lg-9
+            input#phone-advice(type="text", placeholder="+7(____)_____-____-____")
+            a(href="#").btn__agency Получить консультацию
+  section.clients
+    .container
+      .row.justify-content-center.clients__header
+        .col-lg-12
+          h2 Мы официальные представители <br> ТОП 10 застройщиков в Уфе!
+      .row.justify-content-center
+        .clients__items.col-lg-10
+          .clients__item
+            img(src="img/clients/1.jpg", alt="")
+          .clients__item
+            img(src="img/clients/2.jpg", alt="")
+          .clients__item
+            img(src="img/clients/3.jpg", alt="")
+          .clients__item
+            img(src="img/clients/4.jpg", alt="")

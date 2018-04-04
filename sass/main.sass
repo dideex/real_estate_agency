@@ -45,11 +45,32 @@ input:hover, input:focus, a:focus
 	.container
 		max-width: 1170px
 
+//_____________ A R R O W
+.owl-arrow
+	position: absolute 
+	top: 0
+	bottom: 0
+	margin: auto
+	width: 25px
+	height: 25px
+	transform: rotate(45deg)
+	border: 1px solid $accent
+	cursor: pointer
+.owl-arrow#next-staff
+	right: 0
+	border-left: 1px solid transparent
+	border-bottom: 1px solid transparent
+.owl-arrow#prev-staff
+	left: 0
+	border-right: 1px solid transparent
+	border-top: 1px solid transparent
+
 //_____________ G R A Y S C A L E
 img.grayscale
 	filter: grayscale(100%)
 	transition: filter 1s ease-in-out
-section:hover img.grayscale
+section:hover, .item:hover, .personal--item:hover
+	img.grayscale
 		filter: grayscale(0)
 //_____________ B U T T O N S
 .btn__agency
@@ -77,6 +98,25 @@ section:hover img.grayscale
 	font-family: $lights
 	font-size: 1.1rem
 	padding: 6px 0
+//_____________ R A N G E
+input[type=range]
+	margin: 22px 0
+	width: 100%
+	appearance: none
+	background-image: url("../img/range_bg.png")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: calc(100% - 33px) auto
+	&::-webkit-slider-thumb
+		appearance: none
+		width: 33px
+		height: 33px
+		background-color: #ffffff
+		border: 1px solid $font-gray
+		border-radius: 50%
+		cursor: pointer
+	&::thumb
+		background-color: #fff
 //_____________ H E A D E R S
 h1
 	font-family: $black
@@ -142,6 +182,7 @@ h3
 			a.btn__agency
 				flex: 100% 0 0
 				font-size: 1rem
+				padding: 9px 0
 			&--field
 				flex-grow: 1
 				border: 1px solid $font-gray
@@ -155,23 +196,6 @@ h3
 			&--label
 				color: $font-gray
 				padding-right: 69px
-			input
-				margin: 22px 0
-				width: 100%
-				appearance: none
-				background-image: url("../img/range_bg.png")
-				background-repeat: no-repeat
-				background-position: center
-				background-size: calc(100% - 33px) auto
-				&::-webkit-slider-thumb
-					appearance: none
-					width: 33px
-					height: 33px
-					background-color: #ffffff
-					border: 1px solid $font-gray
-					border-radius: 50%
-				&::thumb
-					background-color: #fff
 //_____________ A B O U T
 .about
 	.container
@@ -195,6 +219,62 @@ h3
 	&__left
 		text-align: right
 		padding-right: 95px
+//_____________ S T A F F
+.staff_slider
+	padding: 84px 0
+	.col-lg-10
+		padding: 0 50px
+//_____________ P E R S O N A L
+.personal
+	padding-bottom: 42px
+	h2
+		text-align: center
+		font-size: 1.9rem
+	&--items
+		padding-top: 25px
+		h4
+			font-size: 1rem
+			text-align: center
+			margin-top: 23px
+		a.btn__agency
+			margin-top: 33px
+			font-size: 0.78rem
+	&--item
+		padding-left: 8px
+		padding-right: 8px
+//_____________ A D V I C E
+.advice
+	.container
+		padding: 18px 0
+		background-color: $bg
+	.col-lg-7
+	&__desc
+		margin-bottom: 0
+	input
+		width: 100%
+		padding: 6px 15px
+		font-size: 1rem
+		margin-bottom: 18px
+		&::placeholder
+			font-size: 1rem
+			color: #e1e3e5
+	a.btn__agency
+		font-size: 1rem
+		padding: 8px 0
+//_____________ C L I E N T S
+.clients
+	padding-bottom: 30px
+	&__header
+		text-align: center
+		padding-top: 115px
+		h2
+			font-size: 2.22rem
+			line-height: 1.5
+	&__items
+		margin-top: 27px
+		display: flex
+		justify-content: space-around
+		align-items: center
 //_____________ F O O T E R
 
 //_____________ M E D I A
