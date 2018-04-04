@@ -565,4 +565,22 @@ h3 {
   .comments__slider {
     padding-top: 72px; }
 
+.footer {
+  min-height: 482px; }
+  .footer #map {
+    min-height: 482px; }
+  .footer__right {
+    background-color: #f5f5f5; }
+  .footer__content--wrap {
+    width: 70%;
+    margin: 100px auto 0; }
+    .footer__content--wrap a.btn__agency.white {
+      margin-bottom: 18px; }
+    .footer__content--wrap a.btn__agency {
+      padding: 9px 0;
+      font-size: 0.95rem;
+      margin-bottom: 50px; }
+    .footer__content--wrap .desc {
+      font-size: 0.9rem; }
+
 /*# sourceMappingURL=main.css.map */
