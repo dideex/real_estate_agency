@@ -45,6 +45,12 @@ input:hover, input:focus, a:focus
 	.container
 		max-width: 1170px
 
+//_____________ G R A Y S C A L E
+img.grayscale
+	filter: grayscale(100%)
+	transition: filter 1s ease-in-out
+section:hover img.grayscale
+		filter: grayscale(0)
 //_____________ B U T T O N S
 .btn__agency
 	font-size: 1.55rem
@@ -167,7 +173,28 @@ h3
 				&::thumb
 					background-color: #fff
 //_____________ A B O U T
-
+.about
+	.container
+		background-image: url("../img/about_bg.jpg")
+		background-repeat: no-repeat
+		background-size: 100% auto
+		background-color: $bg
+		padding-top: 36px
+	&__header
+		h3
+			font-size: 1.10rem
+			line-height: 1.46
+			margin-bottom: 40px
+	&__desc
+		font-size: 0.9rem
+		line-height: 1.65
+		strong
+			font-family: $medium
+	&__right
+		padding-top: 22px
+	&__left
+		text-align: right
+		padding-right: 95px
 //_____________ F O O T E R
 
 //_____________ M E D I A
