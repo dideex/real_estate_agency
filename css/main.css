@@ -32,7 +32,8 @@ body {
   font-family: GothamProLights;
   font-weight: 500;
   overflow-scrolling: touch;
-  margin: 0; }
+  margin: 0;
+  color: #5d5a63; }
 
 a:hover, a:focus {
   text-decoration: none; }
@@ -47,6 +48,24 @@ input:hover, input:focus, a:focus {
 @media (min-width: 1170px) {
   .container {
     max-width: 1170px; } }
+
+input[type=text] {
+  width: 100%;
+  padding: 6px 15px;
+  font-size: 1rem;
+  margin-bottom: 18px; }
+  input[type=text]::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: #e1e3e5; }
+  input[type=text]::-moz-placeholder {
+    font-size: 1rem;
+    color: #e1e3e5; }
+  input[type=text]:-ms-input-placeholder {
+    font-size: 1rem;
+    color: #e1e3e5; }
+  input[type=text]::placeholder {
+    font-size: 1rem;
+    color: #e1e3e5; }
 
 .owl-arrow {
   position: absolute;
@@ -328,5 +347,55 @@ h3 {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+
+.hypothec {
+  background-image: url("../img/hypothec_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-bottom: 66px; }
+  .hypothec__header {
+    margin-top: 55px; }
+    .hypothec__header h2 {
+      text-align: center;
+      font-size: 4rem; }
+  .hypothec__content {
+    padding-top: 24px; }
+  .hypothec__right {
+    padding-top: 9px; }
+    .hypothec__right p {
+      line-height: 1.4; }
+  .hypothec__left ul {
+    padding-left: 0; }
+  .hypothec__left li {
+    padding: 12px 0 11px 60px;
+    list-style: none;
+    background-image: url("../img/list.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #5d5a63; }
+  .hypothec__action {
+    padding-top: 20px; }
+    .hypothec__action .hypothec__right {
+      padding-top: 12px; }
+  .hypothec a.btn__agency {
+    font-size: 1rem;
+    padding: 7px 0; }
+  .hypothec h3 {
+    font-size: 1.5rem;
+    font-family: GothamProBlack;
+    color: #8ac0e4;
+    line-height: 1.35; }
+    .hypothec h3 strong {
+      font-size: 2.67rem;
+      text-transform: uppercase; }
+  .hypothec h4 {
+    font-family: GothamProBlack;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    color: #0065ab; }
+
+@media (max-width: 1400px) {
+  .hypothec {
+    background-size: 38%; } }
 
 /*# sourceMappingURL=main.css.map */

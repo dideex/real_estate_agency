@@ -34,6 +34,7 @@ body
 	font-weight: 500
 	overflow-scrolling: touch
 	margin: 0
+	color: $font-gray
 a:hover, a:focus
 	text-decoration: none
 a
@@ -45,6 +46,15 @@ input:hover, input:focus, a:focus
 	.container
 		max-width: 1170px
 
+//_____________ I N P U T
+input[type=text]
+	width: 100%
+	padding: 6px 15px
+	font-size: 1rem
+	margin-bottom: 18px
+	&::placeholder
+		font-size: 1rem
+		color: #e1e3e5
 //_____________ A R R O W
 .owl-arrow
 	position: absolute 
@@ -275,6 +285,56 @@ h3
 		display: flex
 		justify-content: space-around
 		align-items: center
+//_____________ H Y P O T H E C
+.hypothec
+	background-image: url("../img/hypothec_bg.jpg")
+	background-repeat: no-repeat
+	background-position: bottom right
+	margin-bottom: 66px
+	&__header
+		margin-top: 55px
+		h2
+			text-align: center
+			font-size: 4rem
+	&__content
+		padding-top: 24px
+	&__right
+		padding-top: 9px
+		p
+			line-height: 1.4
+	&__left
+		ul
+			padding-left: 0
+		li
+			padding: 12px 0 11px 60px
+			list-style: none
+			background-image: url("../img/list.png")
+			background-repeat: no-repeat
+			background-position: left center
+			color: $font-gray
+	&__action
+		padding-top: 20px
+		.hypothec__right
+			padding-top: 12px
+	a.btn__agency
+		font-size: 1rem
+		padding: 7px 0
+	h3
+		font-size: 1.5rem
+		font-family: $black
+		color: $sub-accent
+		line-height: 1.35
+		strong
+			font-size: 2.67rem
+			text-transform: uppercase
+	h4
+		font-family: $black
+		font-size: 2.8rem
+		text-transform: uppercase
+		color: $accent
+@media (max-width: 1400px)
+	.hypothec 
+		background-size: 38%
 //_____________ F O O T E R
 
 //_____________ M E D I A

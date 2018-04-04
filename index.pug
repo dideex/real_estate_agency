@@ -95,7 +95,7 @@ block content
             p.advice__desc Получи бесплатную консультацию наших специалистов
         .col-lg-5.row.align-items-center
           .col-lg-9
-            input#phone-advice(type="text", placeholder="+7(____)_____-____-____")
+            input#advice-phone(type="text", placeholder="+7(____)_____-____-____")
             a(href="#").btn__agency Получить консультацию
   section.clients
     .container
@@ -112,3 +112,29 @@ block content
             img(src="img/clients/3.jpg", alt="")
           .clients__item
             img(src="img/clients/4.jpg", alt="")
+  section.hypothec
+    .container
+      .row.justify-content-center.hypothec__header
+        .col-lg-12
+          h2 Ипотека
+      .row.justify-content-center.hypothec__content
+        .col-lg-5.hypothec__left
+          ul
+            li Все банки - в одном офисе
+            li Ипотека без первоначального взноса
+            li Одобрение от 4-х часов
+            li Юридическое сопровождение
+            li Материнский капитал
+            li Военная ипотека
+        .col-lg-5.hypothec__right
+          p Не хотите платить первоначальный взнос по ипотеке? Оформите ипотеку через нас! Мы также предоставляем полное юридическое сопровождение при получении военной ипотеки и материнского капитала. 
+          h3 <strong>Снижение</strong><br> процентной ставки<br> при  обращении к нам, до 1%
+      .row.justify-content-center.hypothec__action
+        .col-lg-5.hypothec__left
+          h4 взять ипотеку на лучших условиях
+        .col-lg-5.hypothec__right
+          form
+            input#hypothec-name(type="text", placeholder="Ваше имя*")
+            input#hypothec-phone(type="text", placeholder="+7(____)_____-____-____")
+            a(href="#").btn__agency Оставить заявку
+
