@@ -116,9 +116,12 @@ section:hover img.grayscale, .item:hover img.grayscale, .personal--item:hover im
   display: block;
   text-align: center;
   padding: 10px 0;
-  white-space: nowrap; }
+  white-space: nowrap;
+  -webkit-transition: background-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out; }
   .btn__agency:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    background-color: #002945; }
 
 .btn__agency.small {
   font-size: 1rem; }
@@ -207,6 +210,13 @@ h3 {
   .header {
     background-size: 48%; } }
 
+@media (min-width: 992px) {
+  .header__buttons {
+    -webkit-flex-basis: 27%;
+        -ms-flex-preferred-size: 27%;
+            flex-basis: 27%;
+    max-width: 27%; } }
+
 .price {
   margin-top: 102px;
   text-align: center;
@@ -268,7 +278,8 @@ h3 {
 
 .about__desc {
   font-size: 0.9rem;
-  line-height: 1.65; }
+  line-height: 1.65;
+  color: #000000; }
   .about__desc strong {
     font-family: GothamProMedium; }
 

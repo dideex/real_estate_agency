@@ -32,12 +32,12 @@ block content
                 .price__form--item--label Бюджет
                 .price__form--item--field#budget 1 000 000
               .price__form--item
-                input(type="range", min="1000000", max="10000000", step="50000", list, value="1000000")
+                input#budget-input(type="range", min="1000000", max="10000000", step="50000", list, value="1000000")
               .price__form--item
                 .price__form--item--label Количество комнат
                 .price__form--item--field#count 3
               .price__form--item
-                input(type="range", min="1", max="8", step="1", list, value="3")
+                input#count-input(type="range", min="1", max="8", step="1", list, value="3")
               .price__form--item
                 a(href="#").btn__agency Расчитать
   section.about
@@ -95,7 +95,7 @@ block content
             p.advice__desc Получи бесплатную консультацию наших специалистов
         .col-lg-5.row.align-items-center
           .col-lg-9
-            input#advice-phone(type="text", placeholder="+7(____)_____-____-____")
+            input#advice-phone(type="text", placeholder="+7(___)___-__-__")
             a(href="#").btn__agency Получить консультацию
   section.clients
     .container
@@ -135,7 +135,7 @@ block content
         .col-lg-5.hypothec__right
           form
             input#hypothec-name(type="text", placeholder="Ваше имя*")
-            input#hypothec-phone(type="text", placeholder="+7(____)_____-____-____")
+            input#hypothec-phone(type="text", placeholder="+7(___)___-__-__")
             a(href="#").btn__agency Оставить заявку
   section.benefits
     .container
@@ -202,7 +202,7 @@ block content
         .col-lg-3
           form(action="")
             input#instruction-name(type="text", placeholder="Ваше имя*")
-            input#instruction-phone(type="text", placeholder="+7(____)_____-____-____")
+            input#instruction-phone(type="text", placeholder="+7(___)___-__-__")
             input#instruction-email(type="text", placeholder="__________________@____")
           a(href="#").btn__agency Скачать
   .comments

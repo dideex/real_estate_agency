@@ -33,6 +33,25 @@ $(document).ready(function () {
   $("#prev-comments").click(function () {
     return owlComments.trigger("prev.owl.carousel");
   });
+
+  ////////////////////////////////////
+  // input[type = range]
+  ////////////////////////////////////
+  var formatter = new Intl.NumberFormat("ru");
+  $("#budget-input").on('change', function (e) {
+    return $("#budget").html(formatter.format($(e.target).val()));
+  });
+  $("#count-input").on('change', function (e) {
+    return $("#count").html($(e.target).val());
+  });
+
+  ////////////////////////////////////
+  // Masked input +7(___)_____-____-____
+  ////////////////////////////////////
+
+  $("#advice-phone").mask("+7(999)999-99-99");
+  $("#hypothec-phone").mask("+7(999)999-99-99");
+  $("#instruction-phone").mask("+7(999)999-99-99");
 });
 
 ////////////////////////////////////

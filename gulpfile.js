@@ -31,7 +31,8 @@ gulp.task("libs:js", function() {
       // "lib/vegas/dist/vegas.min.js",
       "lib/owl.carousel/dist/owl.carousel.min.js",
       // "lib/waypoints/lib/noframework.waypoints.min.js",
-      "lib/magnific-popup/dist/jquery.magnific-popup.min.js"
+      "lib/magnific-popup/dist/jquery.magnific-popup.min.js",
+      "lib/masked-input.js"
     ])
     .pipe(concat("libs.js"))
     .pipe(uglify())
